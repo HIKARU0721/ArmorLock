@@ -1,0 +1,16 @@
+name: ArmorLock
+version: 1.7.10-R0.1-SNAPSHOT
+description: Armor Lock plugin for Bukkit.
+load: POSTWORLD
+author: HIKARU0721
+authors:
+website: http://hikaru0721.com/
+main: com.hikaru0721.armorlock.ArmorLock
+database: false
+prefix: ArmorLock
+depend:
+softdepend:
+loadbefore:
+commands:
+permissions:
+default-permission: OP
