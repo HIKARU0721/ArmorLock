@@ -29,7 +29,6 @@ public class ArmorLockListener implements Listener {
             if (event.getSlotType() == SlotType.ARMOR) {
                 if (!player.isOp()) {
                     event.setCancelled(true);
-                    player.sendMessage(ChatColor.RED + "Your armor has been lock" + ChatColor.RESET);
                 }
             }
         }
