@@ -1,6 +1,5 @@
 package com.hikaru0721.armorlock.listener;
 
-import org.bukkit.ChatColor;
 import org.bukkit.entity.HumanEntity;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
