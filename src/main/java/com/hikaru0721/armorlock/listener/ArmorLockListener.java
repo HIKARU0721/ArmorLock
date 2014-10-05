@@ -18,7 +18,7 @@ public class ArmorLockListener implements Listener {
      * Inventory Click Event
      * @param event
      */
-    @EventHandler(priority = EventPriority.MONITOR, ignoreCancelled = true)
+    @EventHandler(priority = EventPriority.NORMAL, ignoreCancelled = true)
     public void onInventoryClickEvent(InventoryClickEvent event) {
         HumanEntity entity = event.getView().getPlayer();
         
